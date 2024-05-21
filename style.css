@@ -1,0 +1,67 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    min-width: 360px;
+    max-width: 400px;
+    margin: 50px auto ;
+    border-radius: 20px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.image img{
+    margin-top: 30px;
+    width: 100px;
+    border-radius: 50%;
+}
+.buttons a{
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 20px;
+    padding: 15px;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    border-radius: 10px;
+    min-width: 300px;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+.buttons a:hover{
+    color: black;
+    background-color: hsl(75, 94%, 57%);
+}
+.content{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+h2{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+h4{
+    margin-top: 3px;
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+}
+p{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: 'Inter';
+}
+
